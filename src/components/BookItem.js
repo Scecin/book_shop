@@ -1,6 +1,10 @@
 import React from "react";
 
-const BookItem = ({book}) => {
+const BookItem = ({book, addBookBasket, onClick}) => {
+
+    const handlebasketButton = (() => {
+        addBookBasket(book)
+    })
 
     return (
         <div className="book">
@@ -14,8 +18,9 @@ const BookItem = ({book}) => {
                     <li>{book.volumeInfo.title}</li>
                     <br/>
                     <li>{book.volumeInfo.authors}</li>
-                    
                 </div>
+                <button className="button2" onClick={handlebasketButton} > Buy
+                </button>
             </li>
         </div>
     )

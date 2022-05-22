@@ -20,7 +20,7 @@
 .book {
   box-shadow: 0 4px 16px 0 rgba(114, 55, 89, 0.943);
   border-radius: 30px;
-  height: 500px;
+  height: 550px;
   width: 450px;
   margin: 48px;
   background-color:rgb(188, 158, 103);
@@ -29,6 +29,7 @@
 #book-info {
   text-align: left;
   padding-top: 24px;
+  padding-bottom:  24px;
   text-align: start;
 }
 
@@ -44,6 +45,35 @@
     width: 100px; 
     font-size: large;
     font-weight: bold;    
+    border-radius: 20px;
+}
+.button2 {
+  background-color: white;
+  height: 50px;
+  width: 100px; 
+  font-size: large;
+  font-weight: bold;     
+  border-radius: 20px;
+}
+
+#button {
+  background-color: white;
+  height: 50px;
+  width: 100px; 
+  font-size: large;
+  font-weight: bold;     
+  border-radius: 20px;
+  margin: 36px;
+}
+
+#button2 {
+  background-color: rgb(188, 158, 103);
+    height: 40px;
+    width: 90px; 
+    font-size: large;
+    font-weight: bold;    
+    border-radius: 20px;
+    margin: 24px;
 }
 
 #author {
@@ -59,4 +89,22 @@
 
 .h1 {
   font-size: xx-large;
+}
+
+#img-basket {
+  height: 70px;
+  width: 50px;
+  padding-right: 24px;
+}
+
+#basket-item {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+#searching-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
 }
